@@ -7,7 +7,7 @@ A feature to install Unity Hub.
 
 ```json
 "features": {
-    "ghcr.io/LordArugula/codespace-feature-unityhub/unityhub:0": {}
+    "ghcr.io/LordArugula/codespace-features/unityhub:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ A feature to install Unity Hub.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/LordArugula/codespace-feature-unityhub/blob/main/src/unityhub/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/LordArugula/codespace-features/blob/main/src/unityhub/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
