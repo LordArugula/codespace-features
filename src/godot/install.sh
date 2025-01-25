@@ -1,4 +1,4 @@
-apt update && apt-get install wget unzip
+apt update && apt-get install wget unzip -y
 EXT=x86_64
 
 read major minor < <(echo $GODOTVERSION | ( IFS=".$IFS" ; read a b && echo $a $b ))
