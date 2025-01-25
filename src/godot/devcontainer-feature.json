@@ -1,0 +1,22 @@
+{
+    "name": "Godot",
+    "id": "godot",
+    "version": "0.1.0",
+    "description": "A feature to install Godot.",
+    "options": {
+        "godotVersion": {
+            "type": "string",
+            "default": "4.3-stable",
+            "proposals": [
+                "4.3-stable",
+                "3.6-stable"
+            ],
+            "description": "The version of Godot to install."
+        },
+        "godotDotNet": {
+            "type": "boolean",
+            "default": true,
+            "description": "Installs Godot with C# support."
+        }
+    }
+}
