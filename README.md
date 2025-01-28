@@ -71,3 +71,7 @@ You will also want to add the desktop-lite feature so you can actually use it in
     "ghcr.io/LordArugula/codespace-features/godot:0": {}
 }
 ```
+
+# Limitations
+
+The desktop-lite feature that is used does not support audio. You may also experience graphical issues.
