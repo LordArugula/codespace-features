@@ -6,9 +6,9 @@
     "options": {
         "godotVersion": {
             "type": "string",
-            "default": "4.5-stable",
+            "default": "4.4.1-stable",
             "proposals": [
-                "4.5-stable",
+                "4.4.1-stable",
                 "3.6-stable"
             ],
             "description": "The version of Godot to install."
