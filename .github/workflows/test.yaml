@@ -15,6 +15,7 @@ jobs:
         features:
           - unityhub
           - godot
+          - luxe
         baseImage:
           - debian:latest
           - ubuntu:latest
