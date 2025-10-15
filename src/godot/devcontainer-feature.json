@@ -1,15 +1,15 @@
 {
     "name": "Godot",
     "id": "godot",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "A feature to install Godot.",
     "options": {
         "godotVersion": {
             "type": "string",
-            "default": "4.4.1-stable",
+            "default": "4.5-stable",
             "proposals": [
-                "4.4.1-stable",
-                "3.6-stable"
+                "4.5-stable",
+                "3.6.1-stable"
             ],
             "description": "The version of Godot to install."
         },

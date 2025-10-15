@@ -14,13 +14,13 @@ fi
 mkdir /opt/godot -p
 if [ "$GODOTDOTNET" = "true" ] ; then
   echo Installing version $GODOTVERSION mono $EXT
-  wget "https://github.com/godotengine/godot/releases/download/"$GODOTVERSION"/Godot_v"$GODOTVERSION"_mono_linux_"$EXT".zip"
+  wget "https://github.com/godotengine/godot-builds/releases/download/"$GODOTVERSION"/Godot_v"$GODOTVERSION"_mono_linux_"$EXT".zip"
   unzip -o "Godot_v"$GODOTVERSION"_mono_linux_"$EXT".zip" -d /opt/godot
   rm "Godot_v"$GODOTVERSION"_mono_linux_"$EXT".zip"
   chmod +x "/opt/godot/Godot_v"$GODOTVERSION"_mono_linux_"$EXT"/Godot_v"$GODOTVERSION"_mono_linux."$EXT
 else
   echo Installing version $GODOTVERSION $EXT
-  wget   "https://github.com/godotengine/godot/releases/download/"$GODOTVERSION"/Godot_v"$GODOTVERSION"_linux."$EXT".zip"
+  wget   "https://github.com/godotengine/godot-builds/releases/download/"$GODOTVERSION"/Godot_v"$GODOTVERSION"_linux."$EXT".zip"
   unzip -o "Godot_v"$GODOTVERSION"_linux."$EXT".zip" -d "/opt/godot/Godot_v"$GODOTVERSION"_linux_"$EXT
   rm "Godot_v"$GODOTVERSION"_linux."$EXT".zip"
   chmod +x "/opt/godot/Godot_v"$GODOTVERSION"_linux_"$EXT"/Godot_v"$GODOTVERSION"_linux."$EXT
