@@ -19,6 +19,17 @@ To actually run Unity Hub in a codespace, you will want to add the desktop-lite 
 }
 ```
 
+```json
+"forwardPorts": [
+        6080
+    ],
+"portsAttributes": {
+    "6080": {
+        "label": "desktop"
+    }
+}
+```
+
 ## Installing the Unity Editor
 This feature does not install the Unity Editor. You can install the Unity Editor after creating the codespace by  either opening Unity Hub and installing the desired version or through the command line.
 
@@ -72,6 +83,16 @@ You will also want to add the desktop-lite feature so you can actually use it in
 }
 ```
 
+```json
+"forwardPorts": [
+        6080
+    ],
+"portsAttributes": {
+    "6080": {
+        "label": "desktop"
+    }
+}
+```
 # Limitations
 
 The desktop-lite feature that is used does not support audio. You may also experience graphical issues.
