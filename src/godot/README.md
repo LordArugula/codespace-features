@@ -15,7 +15,7 @@ A feature to install Godot.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| godotVersion | The version of Godot to install. | string | 4.4.1-stable |
+| godotVersion | The version of Godot to install. | string | 4.5-stable |
 | godotDotNet | Installs Godot with C# support. | boolean | true |
 
 
